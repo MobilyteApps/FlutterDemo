@@ -58,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
 
                 SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(60),
+                  height: ScreenUtil.getInstance().setWidth(60),
                 ),
 
                 _emailField(),
@@ -72,7 +72,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 GradientButtonBlue('signin', StringConstants.textLogin),
 
                 SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(15),
+                  height: ScreenUtil.getInstance().setWidth(15),
                 ),
 
                 Row(
@@ -86,7 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 _signUpText(),
 
                 SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(100),
+                  height: ScreenUtil.getInstance().setWidth(50),
                 ),
               ],
             ),

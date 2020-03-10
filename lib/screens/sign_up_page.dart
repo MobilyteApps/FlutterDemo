@@ -54,29 +54,19 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                   ],
                 ),
-                SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(60),
-                ),
+
                 _fullNameField(),
-                SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(40),
-                ),
+
                 _emailField(),
-                SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(40),
-                ),
+
                 _phoneField(),
-                SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(40),
-                ),
+
                 _passwordField(),
                 GradientButtonGreen('signup', StringConstants.textSignUp),
-                SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(24),
-                ),
+
                 checkBox(),
                 SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(100),
+                  height: ScreenUtil.getInstance().setWidth(50),
                 ),
               ],
             ),

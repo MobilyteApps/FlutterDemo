@@ -20,7 +20,7 @@ class GradientButtonBlue extends StatelessWidget {
           ScreenUtil.getInstance().setHeight(20),
           ScreenUtil.getInstance().setHeight(40),
           0),
-      height: ScreenUtil.getInstance().setHeight(60),
+      height: ScreenUtil.getInstance().setHeight(50),
       child: RaisedButton(
         onPressed: () {
           if (screenType == 'signupv2') {

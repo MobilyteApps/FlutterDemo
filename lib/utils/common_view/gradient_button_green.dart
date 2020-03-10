@@ -20,7 +20,7 @@ class GradientButtonGreen extends StatelessWidget {
           0,
           ScreenUtil.getInstance().setHeight(40),
           screenType != 'signup' ? ScreenUtil.getInstance().setHeight(100) : 0),
-      height: ScreenUtil.getInstance().setHeight(60),
+      height: ScreenUtil.getInstance().setHeight(50),
       child: RaisedButton(
         onPressed: () {
           if (screenType == 'signupv2') {
@@ -52,7 +52,6 @@ class GradientButtonGreen extends StatelessWidget {
               ),
               borderRadius: BorderRadius.circular(4.0)),
           child: Container(
-            constraints: BoxConstraints(maxWidth: 300.0, minHeight: 50.0),
             alignment: Alignment.center,
             child: Text(
               textToShow,

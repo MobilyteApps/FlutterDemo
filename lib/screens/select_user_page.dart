@@ -120,7 +120,7 @@ class _SelectUserScreenState extends State<SelectUserScreen> {
               child: new Container(
                   margin: const EdgeInsets.only(left: 10.0, right: 15.0),
                   child: Divider(
-                    color: AppColors.colorGrayStroke,
+                    color: AppColors.colorStrokeDark,
                     height: 50,
                   )),
             ),
@@ -129,7 +129,7 @@ class _SelectUserScreenState extends State<SelectUserScreen> {
               child: new Container(
                   margin: const EdgeInsets.only(left: 10.0, right: 15.0),
                   child: Divider(
-                    color: AppColors.colorGrayStroke,
+                    color: AppColors.colorStrokeDark,
                     height: 50,
                   )),
             ),

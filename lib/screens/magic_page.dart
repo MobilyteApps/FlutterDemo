@@ -4,6 +4,7 @@ import 'package:flutterdemoapp/utils/colors/app_colors.dart';
 import 'package:flutterdemoapp/utils/common_view/background_image.dart';
 import 'package:flutterdemoapp/utils/common_view/top_logo.dart';
 import 'package:flutterdemoapp/utils/common_view/towni_text.dart';
+import 'package:flutterdemoapp/utils/navigator/routes.dart';
 import 'package:flutterdemoapp/utils/strings/string_constants_app.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -55,18 +56,18 @@ class _MagicScreenState extends State<MagicScreen> {
                   ],
                 ),
                 SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(58),
+                  height: ScreenUtil.getInstance().setWidth(38),
                 ),
                 _magicLinkText(),
                 !linkSent
                     ? SizedBox(
-                        width: ScreenUtil.getInstance().setWidth(60),
+                        height: ScreenUtil.getInstance().setWidth(30),
                       )
                     : Container(),
                 !linkSent ? _emailField() : Container(),
                 _gradientHome(),
                 SizedBox(
-                  width: ScreenUtil.getInstance().setWidth(15),
+                  height: ScreenUtil.getInstance().setWidth(15),
                 ),
               ],
             ),
@@ -169,13 +170,15 @@ class _MagicScreenState extends State<MagicScreen> {
           ScreenUtil.getInstance().setHeight(20),
           ScreenUtil.getInstance().setHeight(40),
           0),
-      height: ScreenUtil.getInstance().setHeight(60),
+      height: ScreenUtil.getInstance().setHeight(50),
       child: RaisedButton(
         onPressed: () {
           if(!linkSent) {
             setState(() {
               linkSent = true;
             });
+          }else{
+            Keys.navKey.currentState.pushReplacementNamed(Routes.landingUserScreen);
           }
         },
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4.0)),

@@ -23,8 +23,9 @@ class BackgroundImage extends StatelessWidget {
                   child: Center(
                       child: Image.asset(
                     screenType == 'signup'
-                        ? 'assets/bg_fade.png'  //use faded image
-                        : 'assets/bg.png',
+                        ? 'assets/images/bg_fade.png' :
+                    screenType == 'otp' || screenType == 'signin' ? 'assets/images/bg_black_white.png' //use faded image
+                        : 'assets/images/bg.png',
                     color: AppColors.colorWhite.withOpacity(1.0),
                     colorBlendMode: BlendMode.softLight,
                   )))),

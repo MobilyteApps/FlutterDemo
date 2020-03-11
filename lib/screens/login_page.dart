@@ -4,7 +4,6 @@ import 'package:flutterdemoapp/utils/colors/app_colors.dart';
 import 'package:flutterdemoapp/utils/common_view/background_image.dart';
 import 'package:flutterdemoapp/utils/common_view/gradient_button_blue.dart';
 import 'package:flutterdemoapp/utils/common_view/top_logo.dart';
-import 'package:flutterdemoapp/utils/common_view/towni_text.dart';
 import 'package:flutterdemoapp/utils/navigator/routes.dart';
 import 'package:flutterdemoapp/utils/strings/string_constants_app.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -51,7 +50,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     Column(
                       children: <Widget>[
                         TopLogo('signin'),
-                        TopTownI('signin'),
                       ],
                     ),
                   ],
@@ -123,7 +121,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Center(
                 child: Image(
                   image: AssetImage(
-                    "assets/google_logo.png",
+                    "assets/images/google_logo.png",
                   ),
                   height: 18.0,
                   width: 18.0,
@@ -179,7 +177,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Center(
                 child: Image(
                   image: AssetImage(
-                    "assets/facebook.png",
+                    "assets/images/facebook.png",
                   ),
                   height: 18.0,
                   width: 18.0,

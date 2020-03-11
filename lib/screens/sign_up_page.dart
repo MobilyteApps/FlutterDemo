@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutterdemoapp/utils/colors/app_colors.dart';
 import 'package:flutterdemoapp/utils/common_view/background_image.dart';
-import 'package:flutterdemoapp/utils/common_view/gradient_button_green.dart';
+import 'package:flutterdemoapp/utils/common_view/gradient_button_blue.dart';
 import 'package:flutterdemoapp/utils/common_view/top_logo.dart';
-import 'package:flutterdemoapp/utils/common_view/towni_text.dart';
 import 'package:flutterdemoapp/utils/strings/string_constants_app.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -46,12 +45,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Stack(
                   children: <Widget>[
                     BackgroundImage('signup'),
-                    Column(
-                      children: <Widget>[
-                        TopLogo('signup'),
-                        TopTownI('signup'),
-                      ],
-                    ),
+                    TopLogo('signup'),
                   ],
                 ),
 
@@ -62,7 +56,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 _phoneField(),
 
                 _passwordField(),
-                GradientButtonGreen('signup', StringConstants.textSignUp),
+                GradientButtonBlue('signup', StringConstants.textSignUp),
 
                 checkBox(),
                 SizedBox(
@@ -102,7 +96,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               Center(
                 child: Image(
                   image: AssetImage(
-                    "assets/google_logo.png",
+                    "assets/images/google_logo.png",
                   ),
                   height: 18.0,
                   width: 18.0,
@@ -159,7 +153,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               Center(
                 child: Image(
                   image: AssetImage(
-                    "assets/facebook.png",
+                    "assets/images/facebook.png",
                   ),
                   height: 18.0,
                   width: 18.0,

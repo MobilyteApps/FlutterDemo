@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutterdemoapp/utils/colors/app_colors.dart';
 import 'package:flutterdemoapp/utils/common_view/background_image.dart';
 import 'package:flutterdemoapp/utils/common_view/top_logo.dart';
-import 'package:flutterdemoapp/utils/common_view/towni_text.dart';
 import 'package:flutterdemoapp/utils/navigator/routes.dart';
 import 'package:flutterdemoapp/utils/strings/string_constants_app.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -47,12 +46,7 @@ class _MagicScreenState extends State<MagicScreen> {
                 Stack(
                   children: <Widget>[
                     BackgroundImage('signin'),
-                    Column(
-                      children: <Widget>[
-                        TopLogo('signin'),
-                        TopTownI('signin'),
-                      ],
-                    ),
+                    TopLogo('signin'),
                   ],
                 ),
                 SizedBox(

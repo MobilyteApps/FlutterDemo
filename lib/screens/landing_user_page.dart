@@ -5,7 +5,6 @@ import 'package:flutterdemoapp/utils/common_view/background_image.dart';
 import 'package:flutterdemoapp/utils/common_view/gradient_button_blue.dart';
 import 'package:flutterdemoapp/utils/common_view/gradient_button_green.dart';
 import 'package:flutterdemoapp/utils/common_view/top_logo.dart';
-import 'package:flutterdemoapp/utils/common_view/towni_text.dart';
 import 'package:flutterdemoapp/utils/navigator/routes.dart';
 import 'package:flutterdemoapp/utils/strings/string_constants_app.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -42,7 +41,6 @@ class _LandingUserScreenState extends State<LandingUserScreen> {
           child: ListView(
             children: <Widget>[
               TopLogo('login'),
-              TopTownI('login'),
 
               Container(
                 margin: EdgeInsets.only(
@@ -56,9 +54,6 @@ class _LandingUserScreenState extends State<LandingUserScreen> {
 
               GradientButtonBlue('login', StringConstants.textLogin),  //tap to navigate to login
 
-              SizedBox(
-                height: ScreenUtil.getInstance().setWidth(23),
-              ),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -67,11 +62,7 @@ class _LandingUserScreenState extends State<LandingUserScreen> {
                   signInButtonFacebook()
                 ],
               ),
-
-              SizedBox(
-                height: ScreenUtil.getInstance().setWidth(22),
-              ),
-
+              
               GradientButtonGreen('login', StringConstants.textSignUp)  //tap to move to sign up page
             ],
           ),
@@ -107,7 +98,7 @@ class _LandingUserScreenState extends State<LandingUserScreen> {
               Center(
                 child: Image(
                   image: AssetImage(
-                    "assets/google_logo.png",
+                    "assets/images/google_logo.png",
                   ),
                   height: 18.0,
                   width: 18.0,
@@ -164,7 +155,7 @@ class _LandingUserScreenState extends State<LandingUserScreen> {
               Center(
                 child: Image(
                   image: AssetImage(
-                    "assets/facebook.png",
+                    "assets/images/facebook.png",
                   ),
                   height: 18.0,
                   width: 18.0,

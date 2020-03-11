@@ -2,32 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eb44891-1aa0-4b9e-89b0-9f982d38f2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlutterDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2.0x/bg_black_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2.0x/bg_fade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/2.0x/vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.0x/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.0x/bg_black_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.0x/bg_fade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3.0x/vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg_black_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_for_Android.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlutterDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FlutterDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg_fade.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg_fade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/google_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/google_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/landing_user_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/landing_user_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/magic_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/magic_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/select_user_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/select_user_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/sign_up_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_up_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/verification_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/verification_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/common_view/background_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/common_view/background_image.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utils/common_view/gradient_button_blue.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/common_view/gradient_button_blue.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utils/common_view/gradient_button_green.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/common_view/gradient_button_green.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/common_view/top_logo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/common_view/top_logo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/common_view/towni_text.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +48,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_23" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -57,8 +70,25 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/2.0x" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/2.0x" />
+      <recent name="$PROJECT_DIR$/assets/images/3.0x" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/2.0x" />
+      <recent name="$PROJECT_DIR$/assets/images/3.0x" />
+      <recent name="$PROJECT_DIR$/assets/images/bg_fade" />
+      <recent name="$PROJECT_DIR$/assets/bg_fade" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,7 +133,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

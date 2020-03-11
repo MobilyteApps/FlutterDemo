@@ -5,7 +5,6 @@ import 'package:flutterdemoapp/utils/common_view/background_image.dart';
 import 'package:flutterdemoapp/utils/common_view/gradient_button_blue.dart';
 import 'package:flutterdemoapp/utils/common_view/gradient_button_green.dart';
 import 'package:flutterdemoapp/utils/common_view/top_logo.dart';
-import 'package:flutterdemoapp/utils/common_view/towni_text.dart';
 import 'package:flutterdemoapp/utils/strings/string_constants_app.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -39,7 +38,7 @@ class _SelectUserScreenState extends State<SelectUserScreen> {
           child: ListView(
             children: <Widget>[
               TopLogo('signupv2'),
-              TopTownI('signupv2'),
+
               SizedBox(
                 height: ScreenUtil.getInstance().setWidth(20),
               ),

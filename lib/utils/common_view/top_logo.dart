@@ -21,7 +21,7 @@ class TopLogo extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
               child: Center(
                   child: Image.asset(
-                'assets/vector.png',
+                'assets/images/vector.png',
               ))),
         ],
       ),

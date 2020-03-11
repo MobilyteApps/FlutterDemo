@@ -32,11 +32,7 @@ class GradientButtonGreen extends StatelessWidget {
             Keys.navKey.currentState.pushReplacementNamed(Routes.signUpScreen);
             return;
           }
-          if (screenType == 'signup') {
-            Keys.navKey.currentState
-                .pushReplacementNamed(Routes.verificationScreen);
-            return;
-          }
+
         },
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4.0)),
         padding: EdgeInsets.all(0.0),
